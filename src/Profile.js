@@ -9,7 +9,7 @@ export default function Profile({ match }) {
 	};
 	React.useEffect(() => {
 		fetchUser();
-	}, []);
+	}, {});
 	return (
 		<div>
 			<div className="profile">
